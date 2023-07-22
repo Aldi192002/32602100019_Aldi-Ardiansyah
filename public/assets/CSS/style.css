@@ -1,0 +1,85 @@
+/* style.css */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.banner,
+.navbar {
+    padding: 40px 70px;
+    background-color: #f1f0ec;
+    text-align: center;
+}
+
+.navbar-icon {
+    flex-grow: 1;
+}
+
+.navbar-page {
+    flex-grow: 2;
+}
+
+.navbar-sosmed {
+    flex-grow: 1;
+}
+
+.navbar-page li,
+.navbar-sosmed li {
+    display: inline;
+}
+
+.navbar-page ul {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.navbar-page li {
+    margin: 0px 20px;
+}
+
+.navbar-page a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-brands {
+    margin-right: 5px;
+}
+
+.banner {
+    line-height: 350%;
+    width: 100%;
+}
+
+.name {
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.description {
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 250%;
+}
+.about {
+    background-color: #130e0b;
+    color: #fafafa;
+    padding: 70px;
+}
+
+.header {
+    text-align: center;
+}
+.header-h1 {
+    text-align: center;
+}
